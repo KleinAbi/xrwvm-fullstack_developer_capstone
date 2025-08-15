@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <style>
+        /* Match homepage navigation bar color */
+        .navitems {
+            background-color: turquoise; 
+            padding: 15px;
+        }
+        .nav_item {
+            margin-left: 15px;
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        .nav_item.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <div class="navitems">
+        <a class="nav_item" href="/">Dealerships</a>
+        <a class="nav_item" href="/home/">Home</a>
+        <a class="nav_item" href="/about/">About Us</a>
+        <a class="nav_item active" href="/contact/">Contact Us</a>
+    </div>
+
+    <!-- Contact section -->
+    <div class="container">
+        <div class="card">
+            <div class="title">Get in Touch</div>
+
+            <!-- Image + Details side by side -->
+            <div style="display: flex; align-items: center; justify-content: center; padding: 20px;">
+                <img src="{% static 'contactus.png' %}" alt="Contact Us" style="width:150px; height:auto; margin-right:20px; border-radius:10px;">
+                <div class="details">
+                    <p><strong>Address:</strong> 123 Main Street, Dream City</p>
+                    <p><strong>Phone:</strong> +1 555-123-4567</p>
+                    <p><strong>Email:</strong> hello@example.com</p>
+                    <p><strong>Business Hours:</strong> Mon–Fri, 9:00 AM – 6:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
