@@ -12,10 +12,7 @@ Add an "About Us" static page.
 
 Add a "Contact Us" static page.
 
-
-
-
-Module 2
+///////////////////////////////////////////////
 
 Create a superuser for your app.
 
