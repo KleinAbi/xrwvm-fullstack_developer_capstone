@@ -39,6 +39,20 @@ Add a Registration view to handle Sign-up requests.
 
 /fetchDealers/Kansas
 
-///////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////// 
 
 4)
+Create CarModel and CarMake Django models
+
+Register CarModel and CarMake models with the admin site
+
+Create new car models objects with associated car makes and dealerships
+
+/////////////////////////////////////////
+
+5)
+Create a Dealers component to list all the dealers
+
+Create a dealer details component that will show the reviews for that particular dealer
+
+Create a review submission page
